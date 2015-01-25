@@ -1192,3 +1192,41 @@ Started GET "/assets/jquery-dfb1e594c3e61a04cc388702c3feec1f.js?body=1" for 127.
 
 
 Started GET "/assets/application-a3dfe642897ebf9dcbc1c28474de4c1a.js?body=1" for 127.0.0.1 at 2015-01-25 14:30:27 +0100
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-25 14:31:31 +0100
+Processing by PostsController#index as HTML
+  [1m[35mPost Load (0.2ms)[0m  SELECT "posts".* FROM "posts"
+  Rendered posts/_post.html.erb (0.7ms)
+  Rendered posts/index.html.erb within layouts/application (3.8ms)
+Completed 200 OK in 57ms (Views: 56.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/comments-c15e1c77cb5b3534b610348cb9f3c56d.css?body=1" for 127.0.0.1 at 2015-01-25 14:31:31 +0100
+
+
+Started GET "/assets/posts-c15e1c77cb5b3534b610348cb9f3c56d.css?body=1" for 127.0.0.1 at 2015-01-25 14:31:31 +0100
+
+
+Started GET "/assets/jquery-dfb1e594c3e61a04cc388702c3feec1f.js?body=1" for 127.0.0.1 at 2015-01-25 14:31:31 +0100
+
+
+Started GET "/assets/scaffolds-4082f26243f9dca54b081ba259101ed2.css?body=1" for 127.0.0.1 at 2015-01-25 14:31:31 +0100
+
+
+Started GET "/assets/application-6612bd013a13682c9185fa3d87e56c3c.css?body=1" for 127.0.0.1 at 2015-01-25 14:31:31 +0100
+
+
+Started GET "/assets/jquery_ujs-d68671a1cc3ff7bd3f96ef9686111a5d.js?body=1" for 127.0.0.1 at 2015-01-25 14:31:31 +0100
+
+
+Started GET "/assets/turbolinks-cd9b4796a00484e994307ba96e05ce6b.js?body=1" for 127.0.0.1 at 2015-01-25 14:31:31 +0100
+
+
+Started GET "/assets/comments-5cf9e471f6dbffd4600ae141132a5888.js?body=1" for 127.0.0.1 at 2015-01-25 14:31:31 +0100
+
+
+Started GET "/assets/posts-5cf9e471f6dbffd4600ae141132a5888.js?body=1" for 127.0.0.1 at 2015-01-25 14:31:31 +0100
+
+
+Started GET "/assets/application-a3dfe642897ebf9dcbc1c28474de4c1a.js?body=1" for 127.0.0.1 at 2015-01-25 14:31:31 +0100
