@@ -21,6 +21,8 @@ gem 'uglifier', '>= 1.3.0'
 gem 'coffee-rails', '~> 4.1.0'
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
+
+gem 'zurb-foundation', '~> 4.3.2'
 end
 
 # Use jQuery as the JavaScript library
@@ -33,6 +35,9 @@ gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0', group: :doc
 
 gem 'arel', '6.0.0.beta2'
+
+gem 'foundation', '~> 1.0.4'
+gem 'foundation-rails'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
