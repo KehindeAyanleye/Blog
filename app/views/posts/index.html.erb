@@ -1,9 +1,15 @@
 <p id="notice"><%= notice %></p>
 
-<h1>Listing Posts</h1>
+<div class="large-10 medium-10 small-12 columns">
+<%= render :partial => @posts %>
+</div>
 
- <%= render :partial => @posts %>
+<div class="large-2 medium-2 small-12 columns">
+	<%= render :partial => 'layouts/widget' %>
+</div>
 
 <br>
 
-<%= link_to 'New Post', new_post_path %>
+<div class="large-12 medium-12 small-12 columns">
+	<%= link_to 'New Post', new_post_path %>
+</div>

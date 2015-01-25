@@ -38,6 +38,8 @@ gem 'arel', '6.0.0.beta2'
 
 gem 'foundation', '~> 1.0.4'
 gem 'foundation-rails'
+gem 'font-awesome-sass'
+gem 'compass', '~> 1.0.3'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
