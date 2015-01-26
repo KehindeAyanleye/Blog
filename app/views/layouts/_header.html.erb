@@ -1,20 +1,21 @@
 <nav class="top-bar">
-  <ul class="title-area">
-    <!-- Title Area -->
+  
+  <div class="row">
+    <div class="large-12 medium-12 small-12 columns">
+      <ul class="title-area">
+        <!-- Title Area -->
+        <li class="name">
+          <h1>
+            <%= link_to 'KA', root_path %>
+          </h1>
 
-    <li class="name">
-    <i class="fa fa-spinner fa-spin"></i>
-      <h1>
-        <%= link_to 'KA', root_path %>
-      </h1>
-    </li>
-    <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
-    <li class="toggle-topbar menu-icon"><a href="#"><span></span></a></li>
-  </ul>
-  <section class="top-bar-section">
-    <ul class="right">
-      <li class="divider hide-for-small"></li>
+        </li>
+        <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
+        <%= render :partial => 'layouts/widget' %>
+        <li class="toggle-topbar menu-icon"><a href="#"><span></span></a></li>
+      </ul>
+    </div>
+  </div>
 
-    </ul>
-  </section>
+
 </nav>
